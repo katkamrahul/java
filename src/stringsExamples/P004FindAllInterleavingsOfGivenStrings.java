@@ -13,6 +13,8 @@ public class P004FindAllInterleavingsOfGivenStrings {
 	public static void main(String[] args) {
 		String str1 = "WX";
 		String str2 = "YZ";
+		System.out.println("String 1 = " +str1+ "\nString 2 = " +str2);
+		
 		
 	}
 }

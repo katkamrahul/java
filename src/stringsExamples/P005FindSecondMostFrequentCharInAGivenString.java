@@ -1,4 +1,5 @@
 //Write a Java program to find the second most frequent character in a given string.
+//Output : c
 
 package stringsExamples;
 
