@@ -4,7 +4,7 @@
 //e  appears  2  times
 //r  appears  2  times
 
-package stringsExamples;
+/* package stringsExamples;
 
 public class P022CounTAndPrintAllDuplicatesIntheString {
 	public static void main(String[] args) {
@@ -23,3 +23,39 @@ public class P022CounTAndPrintAllDuplicatesIntheString {
 		}
 	}
 }
+*/
+
+package stringsExamples;
+
+public class P022CounTAndPrintAllDuplicatesIntheString
+{
+	public static void main(String[] args)
+	{
+		String s = "kaartik";
+		char s1[]=new char[10];
+		int k=0;
+		System.out.println("Given string = " +s);
+		for(int i=0; i<s.length()-1; i++) 
+		{
+				if(s.charAt(i)==s1[k++])
+					continue;
+				else
+				{
+					int count=0;
+					for(int j=i+1; j<s.length(); j++) 
+					{
+							if(s.charAt(i) == s.charAt(j))
+							{
+									count++;		
+							}
+					}
+					if(count >=1) 
+					{
+						System.out.println("Character '" +s.charAt(i)+ "' appears " +count+ " times in the string");
+						s1[i]=s.charAt(i);
+					}
+				}
+			}
+	}
+}
+
