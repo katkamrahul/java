@@ -31,7 +31,7 @@ public class P022CounTAndPrintAllDuplicatesIntheString
 {
 	public static void main(String[] args)
 	{
-		String s = "kaartik";
+		String s = "kaarktik";
 		char s1[]=new char[10];
 		int k=0;
 		System.out.println("Given string = " +s);
